@@ -5,4 +5,5 @@ if not os.path.isfile(fpath+"/myjp/data/jpdb"):
     import myjp.build_kanji
 import myjp.myjpv
 import myjp.myjpk
+import myjp.myjpg
 
