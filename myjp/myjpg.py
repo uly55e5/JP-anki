@@ -98,6 +98,7 @@ def onFocusLost(flag, n, fidx):
             if not nomecab:
                 n["Reading"] = mecab.reading(text)
                 return True
+    return flag
 
 anki.stdmodels.models.append((_("JP Grammar"),addJpGrammarModel))
 addHook('editFocusLost', onFocusLost)
